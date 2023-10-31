@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Contact Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='./style.css'>
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Contact Form</h1>
+        <p>Fill the following fields to send us a message.</p>
+        <form class="contact-form">
+            <div class="input-group">
+                <label for="fullName">Enter your full name:</label>
+                <input type="text" id="fullName" placeholder="Full name" required>
+            </div>
+            <div class="input-group">
+                <label for="emailAddress">Enter your email address:</label>
+                <input type="email" id="emailAddress" placeholder="Email address" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Enter your message:</label>
+                <textarea id="message" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit">Send Now</button>
+        </form>
+    </div>
+</body>
+<script src='./script.js'></script>
+
+</html>
