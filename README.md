@@ -10,4 +10,4 @@ https://sendmail-api-docs.vercel.app/
 
 ## Examples
 
-- [Contact Form](https://github.com/ahmed0saber/sendmail-api-examples/01-contact-form/)
+- [Contact Form](https://github.com/ahmed0saber/sendmail-api-examples/tree/main/01-contact-form/)
